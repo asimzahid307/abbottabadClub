@@ -1,0 +1,86 @@
+
+/* -------------SMALL PHONES from 1024PX to 1200PX-----------------*/
+@media only screen and (max-width:1200px){
+    .Hero_text_box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{ padding: 0 2%; }
+
+}
+
+/* -------------LANDSCAPE TABLETS from 768PX to 1023PX-----------------*/
+@media only screen and (max-width:1023px){
+    body{ font-size: 18px;}
+    section { padding: 60px 0;}
+    .long_copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .steps-box1,
+    .steps-box2{
+        margin-top: 10px;
+    }
+    .work_steps{
+        margin-bottom: 40px;
+    }
+    .work_steps:last-of-type{margin-bottom: 60px;}
+    .app_screen{width: 50%;}
+    .icon-small{ 
+        width: 20px;
+        margin-right: 5px;
+    }
+    .city-feature{ font-size: 90%; }
+    .plan-box{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .plan-price{ font-size: 250%;}
+    .contact-fomr{ width:80%;}
+}
+
+/* -------------TABLETS from 481PX to 767PX-----------------*/
+@media only screen and (max-width:767px){
+    body{ font-size: 16px;}
+    section { padding: 30px 0;}
+    .row,
+    .Hero_text_box{
+        width: 100%;
+        padding: 0 4%;
+    }
+    .col{
+        width:100%;
+        margin: 0 0 4% 0;
+    }
+    .main_nav{display:none;}
+    .long_copy{
+        width: 100%;
+        margin-left: 0%;
+    }
+    h1{ font-size: 180%;}
+    h1{ font-size: 150%;}
+    .work_steps{
+        margin-bottom: 20px;
+    }
+    .work_steps:last-of-type{margin-bottom: 20px;}
+    .work_steps div{
+        height: 40px;
+        width: 40px;
+        padding: 4px;
+        margin-right:15px; 
+        font-size: 120%;
+    }
+    .steps-box1{
+        text-align: center;
+    }
+    .app_screen{width: 40%;}
+}
+
+
+/* -------------SMALL PHONES from 0PX to 480PX-----------------*/
+@media only screen and (max-width:480px){
+
+
+}
+
+
